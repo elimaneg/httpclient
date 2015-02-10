@@ -1,0 +1,5 @@
+/etc/krb5.conf doit avoir la ligne suivante commentee : 
+ #default_ccache_name = KEYRING:persistent:%{uid}
+
+si le fichier de conf de la lib kerberos utilise kerberos.conf
+car il ne peut exploiter le KEYRING qui est specifique a Linux 
